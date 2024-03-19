@@ -1,0 +1,38 @@
+.home-container {
+  text-align: center;
+  align-items: center;
+}
+
+.home-card {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .home-container {
+    display: flex;
+    padding: 0 105px 0 97px;
+  }
+
+  .home-card {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home-content-container {
+    margin-left: 27px;
+    width: 320px;
+  }
+
+  .home-content-container h1 {
+    font-size: 48px;
+  }
+
+  .home-content-container p {
+    font-size: 22px;
+    letter-spacing: -0.015em;
+    color: #f2f2f2;
+    margin: 19px 0 50px;
+    text-align: start;
+  }
+}
